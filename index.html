@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Player</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script defer src="./script/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <img src="IMG/icons8-arrow-30.png" alt="">
+        <img src="IMG/icons8-speaker-32.png" alt="menu-bar" id="menu-bar">
+    </header>
+    <main>
+        <div class="song__heading">
+             <h1 class="song__name">Runnin' Outta Luck</h1>
+            <h3 class="author__name">Alex Cameron</h3>
+        </div>
+       
+       <div class="out__circle">
+            <div class="inner__circle"></div>
+        </div>
+        <div class="range">
+            <input type="range" id="seekBar">
+        </div>
+        <div class="buttons">
+            <div class="button left__button"> <img src="IMG/icons8-fast-forward-100.png" alt=""></div>
+            <div class="button center__button">
+                <div class="back"></div>
+            </div>
+            <div class="button right__button">
+                <img src="IMG/icons8-fast-forward-100.png" alt="">
+            </div>
+        </div>
+        <div class="all_tracks">
+            ALL TRACKS
+            <div class="under__score"></div>
+            <div class="page">
+                <p></p>
+            </div>
+        </div>
+        <div class="new__body">
+            <div class="songs">
+                <div class="song__list__heading"><h1>Song List</h1></div>
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                  </div>
+                <div class="song song-1">1. Oo-Solriya-Oo-Oo-Solriya</div>
+                <div class="song song-2">2. Kodana kodi</div>
+                <div class="song song-3">3. Mascara-Pottu</div>
+                <div class="song song-4">4. Meow-Meow</div>
+                <div class="song song-5">5. Naan-Aalana-Thamarai</div>
+            </div>
+
+            <div class="top">Top</div>
+
+        </div>
+        <audio id="audio1">
+            <source src="./songs/Oo-Solriya-Oo-Oo-Solriya-MassTamilan.fm.mp3">
+        </audio>
+        <audio id="audio2">
+            <source src="./songs/60fps14.mp3">
+        </audio>
+        <audio id="audio3">
+            <source src="./songs/Mascara-Pottu.mp3">
+        </audio>
+        <audio id="audio4">
+            <source src="./songs/Meow-Meow-MassTamilan.io.mp3">
+        </audio>
+        <audio id="audio5">
+            <source src="./songs/Naan-Aalana-Thamarai-MassTamilan.io.mp3">
+        </audio>
+    </main>
+
+    <div class="screen"></div>
+</body>
+
+</html>
