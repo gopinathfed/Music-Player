@@ -19,7 +19,7 @@ body {
     width: 360px;
     height: 800px;
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 0vh;
     background:linear-gradient(220deg,rgb(52, 29, 138) 0 10%,rgb(8, 8, 59) 60% 100%);
     padding: 30px;
     border-radius: 15px;
